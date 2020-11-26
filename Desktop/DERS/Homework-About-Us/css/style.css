@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#about-us .title{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#about-us .title h1{
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+#about-us .title p{
+    color: #555;
+    width: 700px;
+    margin: 0px auto;
+    line-height: 25px;
+}
+
+#about-us .image img{
+    max-width: 100%;;
+}
+
+#about-us .content h3{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#about-us .content p{
+    color: #555;
+    width: 500px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+#about-us .content h5{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#about-us .icon{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(top, #4A00E0, #8E2DE2);
+    float: left;
+    margin-right: 10px;
+}
+

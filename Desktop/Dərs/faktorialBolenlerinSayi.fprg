@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="saleh"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-28 11:35:35 AM"/>
+        <attribute name="created" value="c2FsZWg7Q0FWUjE7MjAyMC0wMS0yODsxMDozMjo1MSBBTTsyMTMw"/>
+        <attribute name="edited" value="c2FsZWg7Q0FWUjE7MjAyMC0wMS0yODsxMTozNTozNSBBTTs4OzIyNTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eded, faktorial, i, count" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#399;d&#601;di daxil edin&quot;" newline="True"/>
+            <input variable="eded"/>
+            <assign variable="faktorial" expression="1"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="count" expression="1"/>
+            <if expression="eded=0">
+                <then>
+                    <output expression="faktorial" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <while expression="eded&gt;0">
+                <assign variable="eded" expression="eded-1"/>
+                <assign variable="faktorial" expression="faktorial+faktorial*eded"/>
+            </while>
+            <output expression="&quot;Daxil etdiyiniz &#601;d&#601;din faktorial&#305; &quot; &amp; faktorial &amp; &quot; edir&quot;" newline="True"/>
+            <while expression="i&lt;=faktorial/2">
+                <if expression="faktorial%i==0">
+                    <then>
+                        <assign variable="count" expression="count+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <output expression="faktorial &amp; &quot; &#601;d&#601;dinin b&#246;l&#601;nl&#601;rinin say&#305; &quot; &amp; count &amp; &quot; edir&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

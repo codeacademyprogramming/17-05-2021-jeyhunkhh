@@ -1,0 +1,31 @@
+img {
+    cursor: pointer;
+}
+
+.my-modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.my-model-content {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-modal img {
+    width: 100%;
+}
+
+span {
+    cursor: pointer;
+}

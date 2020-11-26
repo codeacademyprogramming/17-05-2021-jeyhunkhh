@@ -1,0 +1,37 @@
+﻿<Window x:Class="_210720.Windows.StudentsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_210720.Windows"
+        mc:Ignorable="d"
+        Title="Tələbələr" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Margin="0,0,573,0">
+            <Label x:Name="LblName" Content="Ad *" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="TxtName" HorizontalAlignment="Left" Margin="10,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+            <Label x:Name="LblSurname" Content="Soyad *" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="TxtSurname" HorizontalAlignment="Left" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+            <Label x:Name="LblGroup" Content="Qrup *" HorizontalAlignment="Left" Margin="10,176,0,0" VerticalAlignment="Top"/>
+            <ComboBox x:Name="CmbGroups" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" Width="183" ItemsSource="{Binding Path=Group}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding Path=Group}"/>
+            <Label x:Name="LblBirthday" Content="Doğum günü *" HorizontalAlignment="Left" Margin="13,254,0,0" VerticalAlignment="Top"/>
+            <DatePicker x:Name="DtpBirthday" HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top" Width="183" FirstDayOfWeek="Monday"/>
+            <Button x:Name="BtnCreate" Content="Əlavə et" HorizontalAlignment="Left" Margin="13,356,0,0" VerticalAlignment="Top" Width="180" Click="BtnCreate_Click"/>
+            <Button x:Name="BtnUpdate" Content="Yenilə" HorizontalAlignment="Left" Margin="13,356,0,0" VerticalAlignment="Top" Width="180" Click="BtnUpdate_Click" Visibility="Hidden"/>
+            <Button x:Name="BtnDelete" Content="Sil" HorizontalAlignment="Left" Margin="13,381,0,0" VerticalAlignment="Top" Width="180" Click="BtnDelete_Click" Visibility="Hidden"/>
+
+        </Grid>
+        <Grid  Margin="243,0,0,0">
+            <DataGrid x:Name="DgvStudents" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="DgvStudents_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="0.10*" Header="Id" Binding="{Binding Id}"/>
+                    <DataGridTextColumn Width="0.25*" Header="Ad" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Width="0.25*" Header="Soyad" Binding="{Binding Surname}"/>
+                    <DataGridTextColumn Width="0.20*" Header="Qrup" Binding="{Binding Group.Name}"/>
+                    <DataGridTextColumn Width="0.20*" Header="Doğum günü" Binding="{Binding Birthday, StringFormat=\{0:dd.MM.yyyy \}}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+    </Grid>
+</Window>

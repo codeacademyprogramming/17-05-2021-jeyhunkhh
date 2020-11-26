@@ -1,0 +1,10 @@
+#credit input{
+    display: flex;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#credit th{
+    color: white;
+}

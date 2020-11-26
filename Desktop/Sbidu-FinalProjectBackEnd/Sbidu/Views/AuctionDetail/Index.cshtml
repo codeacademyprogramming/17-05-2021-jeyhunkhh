@@ -1,0 +1,350 @@
+﻿@model AuctionDetailViewModel
+@section Styles{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+}
+<!-- Breadcrumb -->
+<section id="breadcrumb">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li>
+                <a href="index.html">
+                    Home
+                    <i class="flaticon-right-arrow"></i>
+                </a>
+            </li>
+            <li>
+                <a href="auction-details.html">
+                    Auction Details
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="bg-image" style="background-image: url(/uploads/hero-bg.png);"></div>
+</section>
+<!-- End Breadcrumb -->
+<section id="details" class="mb-5">
+    <div class="container">
+        <div class="details-slider">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slider-for" style="color: white;">
+                        @foreach (var item in Model.AuctionProduct.AuctionProductGalleries)
+                        {
+                            <div class="image">
+                                <img src="~/uploads/@item.Photo" alt="">
+                            </div>
+                        }
+                    </div>
+                    <div class="slider-nav">
+                        @foreach (var item in Model.AuctionProduct.AuctionProductGalleries)
+                        {
+                            <div class="image-nav">
+                                <img src="~/uploads/@item.Photo" alt="">
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="details-bid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="header">
+                        <h1>@Model.AuctionProduct.Name</h1>
+                        <ul class="listing-id d-flex">
+                            <li class="listing">Listing ID: 14076242</li>
+                            <li>Item #: 7300-3356862</li>
+                        </ul>
+                        <ul class="current-price">
+                            <li class="header">
+                                <h4>Current Price</h4>
+                                @if (Model.AuctionProduct.UserAuctionProducts.Count > 0)
+                                {
+                                    <h2>US $@Model.AuctionProduct.UserAuctionProducts.OrderByDescending(x => x.Bid).FirstOrDefault().Bid</h2>
+                                }
+                                else
+                                {
+                                    <h2>US $0</h2>
+                                }
+                            </li>
+                            <li>
+                                <span>Start Price (US)</span>
+                                <h4>$@Model.AuctionProduct.StartPrice</h4>
+                            </li>
+                            <li>
+                                <span>Bid Increment (US)</span>
+                                <h4>$10</h4>
+                            </li>
+                        </ul>
+                        <div class="auction-bid">
+                            <div asp-validation-summary="ModelOnly" class="text-danger mt-3"></div>
+                            <form method="post">
+                                <div class="image">
+                                    <img src="~/uploads/search-icon.png" class="img-fluid" alt="">
+                                </div>
+                                @if (Model.AuctionProduct.UserAuctionProducts.Any(x => x.Bid > 0))
+                                {
+                                    <input asp-for="(@Model.Bid" step="10" min="@Model.AuctionProduct.UserAuctionProducts.OrderByDescending(x=>x.Bid).FirstOrDefault().Bid" placeholder="Enter you bid amount">
+                                }
+                                else
+                                {
+                                    <input asp-for="@Model.Bid" step="10" min="@Model.AuctionProduct.StartPrice" placeholder="Enter you bid amount">
+                                }
+                                <button type="submit">Submit A Bid</button>
+                            </form>
+                        </div>
+                        <div class="buy-now">
+                            <button class="sweet buy">BUY NOW: $@Model.AuctionProduct.BuyNowPrice</button>
+                            <a asp-action="AddToWishlist" asp-route-id="@Model.AuctionProduct.Id" class="star">
+
+                                @if (Model.AuctionProduct.UserAuctionProducts.Where(x => x.AppUserId == ViewBag.User.Id).Any(x => x.IsFavorit == true))
+                                {
+                                    <i class="fas fa-star"></i>
+                                }
+                                else
+                                {
+                                    <i class="far fa-star"></i>
+                                }
+                                Add To Wishlist
+                            </a>
+                            <div class="social d-flex">
+                                <span>Share to:</span>
+                                <ul class="d-flex">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="title text-center">
+                            <h6>This Auction Ends in:</h6>
+                            <div class="time">
+                                <div class="countdown" data-countdown="@Model.AuctionProduct.EndDate.ToString("MM.dd.yyyy HH:mm").Replace(".","/")"></div>
+                            </div>
+                        </div>
+                        <div class="items-area start">
+                            <div class="item d-flex">
+                                <div class="image">
+                                    <img src="~/uploads/icon1.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="timer" data-to="61" data-speed="5000"></div>
+                                    <span>Active Bids</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex">
+                                <div class="image">
+                                    <img src="~/uploads/icon2.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="timer" data-to="203" data-speed="5000"></div>
+                                    <span>Watching</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex">
+                                <div class="image">
+                                    <img src="~/uploads/icon3.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="timer" data-to="83" data-speed="5000"></div>
+                                    <span>Total Bids</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="details-content">
+        <div class="container">
+            <ul class="nav d-flex">
+                <li class="nav-item">
+                    <a href="#description" data-toggle="tab" class="description nav-link active">
+                        <div class="image">
+                            <img src="~/uploads/tab1.png" alt="">
+                        </div>
+                        Description
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#delivery" data-toggle="tab" class="delivery nav-link">
+                        <div class="image">
+                            <img src="~/uploads/tab2.png" alt="">
+                        </div>
+                        Delivery Options
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#history" data-toggle="tab" class="history nav-link">
+                        <div class="image">
+                            <img src="~/uploads/tab3.png" alt="">
+                        </div>
+                        Bid History (@Model.AuctionProduct.UserAuctionProducts.Where(x => x.Bid > 0).Count())
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#questions" data-toggle="tab" class="questions nav-link">
+                        <div class="image">
+                            <img src="~/uploads/tab4.png" alt="">
+                        </div>
+                        Questions
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tab-content">
+            <div class="tab-pane fade active show" id="description">
+                <h2>@Model.AuctionProduct.Name</h2>
+                <div class="item">
+                    <h4>Condition</h4>
+                    <p>
+                        @Model.AuctionProduct.About
+                    </p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="delivery">
+                <h4>Shipping</h4>
+                <table class="table bg table-borderless">
+                    <tbody>
+                        <tr>
+                            <th>Available Delivery Methods</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr class="info">
+                            <td>Customer Pick-up (within 10 days)</td>
+                            <td>$0.00</td>
+                        </tr>
+                        <tr>
+                            <td>Standard Shipping (5-7 business days)</td>
+                            <td>Not Applicable</td>
+                        </tr>
+                        <tr class="info">
+                            <td>Expedited Shipping (2-4 business days)</td>
+                            <td>Not Applicable</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item">
+                    <h4>Notes</h4>
+                    <p>
+                        Please carefully review our shipping and returns policy before committing to a bid. From
+                        time to time, and at its sole discretion, Sbidu may change the prevailing fee structure
+                        for shipping and handling.
+                    </p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="history">
+                <h4>Bid History</h4>
+                <div class="history-table">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Bidder</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Unit Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.AuctionProduct.UserAuctionProducts)
+                            {
+                                if (item.Bid > 0)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="image">
+                                                @if (item.AppUser.Photo == null)
+                                                {
+                                                    <img src="~/uploads/user-1.jpg" alt="">
+                                                }
+                                                else
+                                                {
+                                                    <img src="~/uploads/@item.AppUser.Photo" alt="">
+                                                }
+
+                                            </div>
+                                            <h6>@item.AppUser.FullName</h6>
+                                        </td>
+                                        <td>@item.AddDate.ToString("MM.dd.yyyy").Replace(".", "/")</td>
+                                        <td>@item.AddDate.ToString("HH:mm:ss").Replace(".", "/")</td>
+                                        <td>$@item.Bid</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="questions">
+                <h4>Frequently Asked Questions</h4>
+                <div class="faq">
+                    @foreach (var item in Model.Faq)
+                    {
+                        <div class="faq-item">
+                            <div class="faq-title">
+                                <img src="~/uploads/faq.png" alt="">
+                                <span class="title">@item.Question</span>
+                                <span class="icon"></span>
+                            </div>
+                            <div class="faq-content">
+                                <p>@item.Answer</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="~/js/jquery.countTo.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        $(".sweet").click(function () {
+            Swal.fire({
+                title: 'Do you want to save the changes?',
+                showCancelButton: true,
+                confirmButtonText: `Buy`,
+            }).then(function (result) {
+                if (result.isConfirmed) {
+                    if (result.value) {
+                        window.location = "/auctiondetail/buynow/@Model.AuctionProduct.Id";
+                    }
+                    Swal.fire('The product is now yours!', '', 'success').then(function (result) {
+                        if (result.value) {
+                            window.location = "/winning-bids";
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+}

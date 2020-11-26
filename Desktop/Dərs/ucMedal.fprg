@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ceyhun"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-28 06:46:07 &#214;S"/>
+        <attribute name="created" value="Q2V5aHVuO0RFU0tUT1AtQ0ZJT1A4QzsyMDIwLTAxLTI4OzA2OjI4OjQ0IMOWUzszMTE4"/>
+        <attribute name="edited" value="Q2V5aHVuO0RFU0tUT1AtQ0ZJT1A4QzsyMDIwLTAxLTI4OzA2OjQ2OjA3IMOWUzsxOzMyMjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eded, say" type="Integer" array="False" size=""/>
+            <output expression="&quot;Eded daxil edin&quot;" newline="True"/>
+            <input variable="eded"/>
+            <if expression="eded&lt;=100 and eded&gt;0">
+                <then>
+                    <assign variable="say" expression="eded*(eded-1)*(eded-2)"/>
+                    <output expression="say" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;daxil etdiyiniz eded yalnisdi&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

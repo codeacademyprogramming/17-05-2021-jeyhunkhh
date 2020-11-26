@@ -1,0 +1,53 @@
+/* 
+.item{
+    height: 100px;
+    width: 33%;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.color-1{
+    background-color: aquamarine;
+}
+
+.color-2{
+    background-color: black;
+}
+
+.color-3{
+    background-color: gray;
+}
+
+.color-4{
+    background-color: yellow;
+}
+
+.news-item{
+    height: 100px;
+    width: 25%;
+    float: left;
+} */
+
+
+.color-1{
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.color-2{
+    background-color: black;
+    height: 100px;
+}
+
+.color-3{
+    background-color: gray;
+    height: 100px;
+}
+
+.color-4{
+    background-color: yellow;
+    height: 100px;
+}

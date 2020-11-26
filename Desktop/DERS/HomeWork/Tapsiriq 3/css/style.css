@@ -1,0 +1,82 @@
+#about-tazkarty{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    line-height: 0px;
+}
+
+#about-tazkarty h1{
+    font-size: 30px; 
+    margin-bottom: 40px; 
+}
+
+#about-tazkarty h1 span{
+    font-weight: 700;
+}
+
+#about-tazkarty .image img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#about-tazkarty .content{
+    margin-top: 40px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+#about-tazkarty .content .icon{
+    margin-bottom: 25px;
+}
+
+#about-tazkarty .content i{
+    font-size: 35px;
+    color: #2a92dc;
+   float: left;
+   padding-right: 15px;
+}
+
+#about-tazkarty .content h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+#about-tazkarty .text p{
+    line-height: 25px;
+    font-size: 14px ;
+    color: slategray;
+}
+
+#about-tazkarty .video{
+    position: relative;
+}
+
+#about-tazkarty .play i{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    color: white;
+    background-color: #2a92dc; 
+    position: absolute;
+    left: 45%;
+    top: 42%;
+    z-index: 1;
+}
+
+#about-tazkarty .image::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 25, 53, 0.6);
+    border-radius: 20px;
+}
+
+
+
+
+

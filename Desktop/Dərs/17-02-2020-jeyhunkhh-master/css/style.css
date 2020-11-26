@@ -1,0 +1,96 @@
+.color-1{
+    height: 200px;
+    background-color: black;
+}
+
+.color-2{
+    height: 200px;
+    background-color: yellow;
+}
+
+.color-3{
+    height: 200px;
+    background-color: green;
+}
+
+.color-4{
+    height: 200px;
+    background-color: teal;
+}
+
+.color-5{
+    height: 200px;
+    background-color:blueviolet;
+}
+
+.color-6{
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.color-7{
+    height: 200px;
+    background-color: pink;
+}
+
+.color-8{
+    height: 200px;
+    background-color: gray;
+}
+
+.color-9{
+    height: 200px;
+    background-color: brown;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* height: 600px; */
+}
+
+.news .item {
+  width: 17%;
+  margin-bottom: 15px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+  background: #009688;
+  color: white;
+  /* margin: 0px 5px 10px; */
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+.features .item{
+    /* width: 30%; */
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #009688;
+    color: white;
+    margin: 0px 5px;
+}
+
+.features .item.microsoft{
+    /* order: 3; */
+    flex-grow: 1;
+}
+
+.features .item.linkedin{
+    /* order: 2; */
+    flex-grow: 1;
+}
+
+.features .item.google{
+    /* order: 1; */
+    flex-grow: 1;
+}

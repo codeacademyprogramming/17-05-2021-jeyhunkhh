@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5vZU46yBcnpuT3iC+vw9xk+lc/8C6f9EDhAMwiqPLJDe9QpqgtTzs/DLGN3FA+ipcngkNR3MQITbOuTit1yVjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ceyhun\\Desktop\\16-06-2020-jeyhunkhh-master\\160620\\160620.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ceyhun\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

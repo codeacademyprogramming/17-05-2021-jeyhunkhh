@@ -1,0 +1,1025 @@
+#navbar ul li a {
+    color: black;
+    padding: 40px 20px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navbar {
+    position: relative;
+}
+
+#navbar .navbar-brand {
+    background-color: #f4f4f4;
+    padding: 32px 20px 32px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#navbar ul {
+    padding-left: 130px;
+}
+
+#navbar .form-inline .search input {
+    border: none;
+    background-color: #f4f4f4;
+}
+
+#navbar .form-inline .search {
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 10px 30px;
+}
+
+#navbar .form-inline .search input::placeholder {
+    font-size: 13px;
+}
+
+#navbar .form-inline .search a {
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2D3092;
+    border-radius: 50%;
+}
+
+#navbar .form-inline .search a i {
+    color: white;
+}
+
+
+#curly-poster {
+    margin-bottom: 160px;
+    background-color: #bcdefe;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
+#curly-poster .image img {
+    width: 801px;
+    height: 792px;
+    transform: translateX(-160px);
+}
+
+#curly-poster .brand-header h1 {
+    font-family: "Sen",sans-serif;
+    color: #030431;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 51px;
+}
+
+#curly-poster .brand-span span {
+    font-family: "Roboto",sans-serif;   
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2d3092;
+    margin-bottom: 44px;
+    display: inline-block;
+}
+
+#curly-poster .brand-button {
+    overflow: hidden;
+}
+
+#curly-poster .brand-button a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#curly-poster .brand-button a::before {
+    content: "";
+    background-color: #2D3092;
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+#curly-poster .brand-button a::after {
+    content: "";
+    background-color: #3e44ec;
+    position: absolute;
+    width: 170px;
+    height: 55px;
+    top: 0;
+    left: -240px;
+    z-index: -1;
+    transition: all 0.6s;
+    opacity: 0;
+}
+
+#curly-poster .brand-button a:hover::after {
+    transform: translateX(240px);
+    transition: all 0.6s;
+    opacity: 1;
+}
+
+
+#category .little-headers span {
+    color: #3ba0ff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#category .little-headers h1 {
+    font-size: 50px;
+    color: #030431;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+#category .simple-cards h5 {
+    color: #030431;
+    margin-bottom: 25px;
+    transition: all 0.4;
+}
+
+#category .simple-cards p {
+    font-size: 16px;
+    color: #57667e;
+    margin-bottom: 36px;
+    transition: all 0.4;
+}
+
+#category .simple-cards a {
+    color: #5d6072;
+    font-weight: 400;
+    padding-left: 0;
+    transition: all 0.4;
+}
+
+#category .simple-cards .before-icon i {
+    color: #2d3092;
+    font-size: 50px;
+}
+
+#category .simple-cards {
+    transition: all 0.4s;
+
+}
+
+#category .simple-cards:hover {
+    background-color: #2d3092;
+    transition: all 0.4s;
+}
+
+#category .simple-cards:hover p {
+    color: white;
+    transition: all 0.4;
+}
+
+#category .simple-cards:hover h5 {
+    color: white;
+    transition: all 0.4;
+}
+
+#category .simple-cards:hover span i {
+    color: white;
+    transition: all 0.4;
+}
+
+#category .simple-cards:hover a {
+    color: white;
+    transition: all 0.4;
+}
+
+#category .more-course-button a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 15px 47px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    margin-bottom: 250px;
+}
+
+#category .more-course-button a::before {
+    content: "";
+    background-color: #2D3092;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+#category .more-course-button a::after {
+    content: "";
+    background-color: #3e44ec;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: -240px;
+    z-index: -1;
+    transition: all 0.6s;
+    opacity: 0;
+}
+
+#category .more-course-button a:hover::after {
+    transform: translateX(240px);
+    transition: all 0.6s;
+    opacity: 1;
+}
+
+.curly-lines img {
+    width: 110px;
+    height: 100px;
+    margin-left: 43px;
+}
+
+.curly-lines p {
+    text-align: center;
+    color: #1e9d78;
+    font-size: 24px;
+}
+
+.curly-lines2 p {
+    color: #2d3092;
+    text-align: center;
+    font-size: 24px;
+}
+
+.curly-lines3 p {
+    color: #1e9d78;
+    font-size: 24px;
+    text-align: center;
+}
+
+.curly-lines4 p {
+    color: #f05510;
+    font-size: 24px;
+    text-align: center;
+}
+
+.curly-lines2 img {
+    width: 125px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.curly-lines3 img {
+    width: 130px;
+    height: 100px;
+    margin-left: 23px;
+}
+
+.curly-lines4 img {
+    width: 140px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.background-blue {
+    background-color: #f6fbff;
+    padding-top: 120px;
+    padding-bottom: 130px;
+    margin-bottom: 150px;
+}
+
+#popular .little-headers span {
+    color: #3ba0ff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#popular .little-headers h1 {
+    font-size: 50px;
+    color: #030431;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+
+#popular .card {
+    border: 1px solid #e4e7ff;
+}
+
+#popular .card-body a h5 {
+    text-decoration: none;
+    font-family: 'Sen', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #030431;
+    transition: all 0.4s;
+}
+
+#popular .card-body a {
+    text-decoration: none;
+}
+
+#popular .card-body a:hover h5 {
+    color: #171a75;
+    transition: all 0.4s;
+}
+
+#popular .star-review i {
+    color: #FDCC0D;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+#popular .star-review {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #B2B2B2;
+}
+
+#popular .icon-number-free {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #B2B2B2;
+}
+
+#popular .icon-number-free a i {
+    color: #b2b2b2;
+}
+
+#popular .bright-pictures {
+    overflow: hidden;
+}
+
+#popular .bright-pictures img {
+    transform: scale(1.08);
+    transition: all 0.5s;
+}
+
+#popular .scale-cards:hover img {
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+
+#popular .more-course-button a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 15px 47px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    margin-bottom: 130px;
+}
+
+#popular .more-course-button a::before {
+    content: "";
+    background-color: #2D3092;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+#popular .more-course-button a::after {
+    content: "";
+    background-color: #3e44ec;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: -240px;
+    z-index: -1;
+    transition: all 0.6s;
+    opacity: 0;
+}
+
+#popular .more-course-button a:hover::after {
+    transform: translateX(240px);
+    transition: all 0.6s;
+    opacity: 1;
+}
+
+#best-teachers {
+    background-color: #2d3092;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 150px;
+}
+
+#best-teachers .little-headers span {
+    color: #3ba0ff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#best-teachers .little-headers h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+
+#best-teachers .teacher-card {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#best-teachers .teacher-card .img-cont {
+    overflow: hidden;
+}
+
+#best-teachers .teacher-card a {
+    text-decoration: none;
+    color: #33384e;
+    font-size: 25px;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+#best-teachers .teacher-card a:hover {
+    color: #2d3092;
+    transition: all 0.4s;
+}
+
+#best-teachers .teacher-card p {
+    color: #57667e;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+#best-teachers .teacher-card .teacher-icons {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    visibility: hidden;
+}
+
+#best-teachers .teacher-card .teacher-icons a {
+    display: inline-block;
+    color: #8ba4b1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 7px;
+    background-color: white;
+    opacity: 0;
+}
+
+#best-teachers .teacher-card .teacher-icons .tw {
+    transition-delay: 0.1s;
+    opacity: 0;
+}
+
+#best-teachers .teacher-card .teacher-icons .gl {
+    transition-delay: 0.2s;
+    opacity: 0;
+}
+
+
+#best-teachers .teacher-card:hover .teacher-icons .fb {
+    transform: translateY(-60px);
+    opacity: 1;
+    visibility: visible;
+}
+
+#best-teachers .teacher-card:hover .teacher-icons .tw {
+    transform: translateY(-60px);
+    transition-delay: 0.1s;
+    opacity: 1;
+    visibility: visible;
+}
+
+#best-teachers .teacher-card:hover .teacher-icons .gl {
+    transform: translateY(-60px);
+    transition-delay: 0.2s;
+    opacity: 1;
+    visibility: visible;
+}
+
+#best-teachers .teacher-card .img-cont img {
+    transition: all 0.4s;
+}
+
+#best-teachers .teacher-card:hover .img-cont img {
+    transform: scale(1.04);
+    transition: all 0.4s;
+}
+
+#best-teachers .more-course-button a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 15px 47px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+#best-teachers .more-course-button a::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+#best-teachers .more-course-button a::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: -240px;
+    transition: all 0.6s;
+    opacity: 0;
+    z-index: -1;
+}
+
+#best-teachers .more-course-button a:hover::after {
+    transform: translateX(240px);
+    transition: all 0.6s;
+    opacity: 1;
+}
+
+#best-teachers .more-course-button a:hover {
+    color: white;
+    transition: all 0.4s;
+}
+
+#know-more {
+    margin-bottom: 50px;
+}
+
+#know-more .more-course-button a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 15px 47px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+#know-more .more-course-button a::before {
+    content: "";
+    background-color: #171a75;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+#know-more .more-course-button a::after {
+    content: "";
+    background-color: #3e44ec;
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    top: 0;
+    left: -240px;
+    transition: all 0.6s;
+    opacity: 0;
+    z-index: -1;
+}
+
+#know-more .more-course-button a:hover::after {
+    transform: translateX(240px);
+    transition: all 0.6s;
+    opacity: 1;
+}
+
+#know-more .more-course-button a:hover {
+    color: white;
+    transition: all 0.4s;
+}
+
+#know-more .content span {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    color: #3ba0ff;
+    display: inline-block;
+}
+
+#know-more .content h1 {
+    margin-bottom: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 50px;
+    line-height: 1.3;
+    margin-bottom: 17px;
+    color: #030431;
+}
+
+#know-more .content p {
+    font-size: 16px;
+    color: #64676c;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    padding-right: 50px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 35px;
+}
+
+#know-more .content ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#know-more .content ul li {
+    color: #000;
+    font-size: 16px;
+    list-style: none;
+    line-height: 2.5;
+    font-family: "Roboto", sans-serif;
+}
+
+#know-more .content ul li i {
+    margin-right: 15px;
+    font-size: 25px;
+    color: #2328b3;
+}
+
+#know-more .images {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-right: 0;
+}
+
+#know-more .images img {
+    width: 260px;
+
+}
+
+#latest-news .little-headers span {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #3ba0ff;
+    display: inline-block;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#latest-news .little-headers h1 {
+    font-size: 49px;
+    display: block;
+    color: #030431;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+#latest-news {
+    margin-top: 150px;
+    margin-bottom: 160px;
+}
+
+#latest-news .card {
+    border: 1px solid #f7f7f7;
+}
+
+#latest-news .wide-card {
+    transition: all 0.5s;
+}
+
+#latest-news .wide-card .card-body p {
+    font-family: "Roboto", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    position: relative;
+}
+
+#latest-news .wide-card .card-body p::after {
+    content: "";
+    position: absolute;
+    width: 1.4px;
+    height: 14px;
+    background-color: #10285d;
+    top: 8px;
+    left: 0px;
+}
+
+#latest-news .wide-card h3 a {
+    color: #191d34;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: "Sen", sans-serif;
+    transition: all 0.4s;
+}
+
+#latest-news .wide-card .read-more a {
+    font-size: 14px;
+    font-family: "Sen", sans-serif;
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+#latest-news .wide-card h3 a:hover {
+    color: #2d3092;
+    transition: all 0.4s;
+}
+
+#latest-news .wide-card .image-scale {
+    overflow: hidden;
+    position: relative;
+}
+
+#latest-news .wide-card .image-scale img {
+    transition: all 0.4s;
+}
+
+#latest-news .wide-card:hover img {
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+#latest-news .wide-card:hover {
+    box-shadow: 0px 3px 40px -5px #e7e7e7;
+    transition: all 0.5s;
+}
+
+#latest-news .wide-card .novem {
+    position: absolute;
+    top: 228px;
+    left: 0;
+    background-color: #2d3092;
+    padding: 15px 34px;
+    display: inline-block;
+}
+
+#latest-news .wide-card .novem h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#latest-news .wide-card .novem span {
+    color: #fff;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#social-footer {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #0b0b1d;
+}
+
+#social-footer .left-side h4 {
+    color: white;
+    font-family: "Sen", sans-serif;
+    font-size: 26px;
+    margin-bottom: 38px;
+    font-weight: 500;
+}
+
+#social-footer .right-side h4 {
+    color: white;
+    font-family: "Sen", sans-serif;
+    font-size: 26px;
+    margin-bottom: 38px;
+    font-weight: 500;
+}
+
+#social-footer .left-side form input {
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    border: 0;
+    background: #fff;
+    color: #000;
+    outline: none;
+}
+
+#social-footer .left-side form input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#social-footer .left-side form button {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+    border: 0;
+    cursor: pointer;
+    padding: 23px 28px;
+    background: #2d3092;
+    line-height: 1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#social-footer .right-side .social-icons a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    color: #fff;
+    margin-right: 20px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+#social-footer .right-side .social-icons a i {
+    font-size: 20px;
+    transition: 0.2s linear;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+#social-footer .right-side .social-icons a:hover i {
+    transform: scale(1.25);
+    transition: all 0.4s;
+}
+
+#social-footer .right-side .social-icons .fb::after {
+    content: "";
+    background-color: #3b5998;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: all 0.4s;
+}
+
+#social-footer .right-side .social-icons .tw::after {
+    content: "";
+    background-color: #1DA1F2;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: all 0.4s;
+}
+
+#social-footer .right-side .social-icons .gg::after {
+    content: "";
+    background-color: #dd4b39;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: all 0.4s;
+}
+
+#social-footer .right-side .social-icons .ig::after {
+    content: "";
+    background-color: #BB1500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: all 0.4s;
+}
+
+
+#social-footer .right-side .social-icons .yt::after {
+    content: "";
+    background-color: #2d3092;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: all 0.4s;
+}
+
+#social-footer .right-side .social-icons a::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    background-color: #3498db;
+    transform: rotate(45deg);
+    left: -80px;
+    top: 50px;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+#social-footer .right-side .social-icons a:hover::before {
+    transform: translate(65px, -65px) rotate(45deg);
+    transition: all 0.5s;
+}
+
+#social-footer .about-us ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#social-footer .about-us ul li {
+    color: #868c98;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    list-style: none;
+    line-height: 1.5;
+    margin: 0px 0px 14px;
+    transition: all 0.5s;
+}
+
+#social-footer .about-us ul li:hover {
+    color: white;
+    transform: translateX(10px);
+    transition: all 0.5s;
+}
+
+#social-footer .about-us h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 38px;
+    font-weight: 500;
+}
+
+#social-footer hr {
+    color: white;
+    background-color: rgb(54, 60, 82);
+    height: 0.01px;
+}
+
+#social-footer .foot-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#social-footer .foot-footer p {
+    color: #9fa8c3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "Roboto",sans-serif;
+}
+
+#social-footer .foot-footer p a {
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+#social-footer .foot-footer p a:hover {
+    color: white;
+    transition: all 0.4s;
+}
+
+
+.blue {
+    color: #2d3092;
+}

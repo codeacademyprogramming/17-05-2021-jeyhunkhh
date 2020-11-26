@@ -1,0 +1,17 @@
+.area{
+    height: 400px;
+    position: relative;
+    border: 2px solid black;
+    outline: none;
+    background-color: green;
+}
+
+.area .ball{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    left:30px;
+    top: 50px;
+}

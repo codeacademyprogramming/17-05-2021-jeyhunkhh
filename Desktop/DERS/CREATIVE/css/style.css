@@ -1,0 +1,217 @@
+body{
+    font-family: 'Merriweather Sans' ;
+}
+
+body p{
+    font-family: 'Merriweather' ;
+}
+
+header{
+    min-height: 72px;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 2px 15px 0px #0000001c;
+}
+
+#navbar .navbar-nav .nav-item .nav-link {
+    color: #212529;
+}
+
+#favorite{
+    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../img/bg-masthead\ \(1\).jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+#favorite .content h1{
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    position: relative;
+}
+
+#favorite .content p{
+    font-size: 18.4px;
+    color: rgba(255,255,255,.75);
+    width: 730px;
+}
+
+#favorite .content .btn{
+    color: white;
+    background-color: #f4623a;
+    padding: 20px 36px;
+    font-size: 13.6px;
+}
+
+#favorite .content .btn:hover{
+    background-color: #f24516;
+}
+
+#favorite .content h1::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #f4623a;
+    width: 50px;
+    left: 47%;
+    bottom: -15%;
+}
+
+#get-start{
+    background-color: #f4623a;
+}
+
+#get-start .content h2{
+    color: white;
+    position: relative;
+}
+
+#get-start .content p{
+    color: rgba(255,255,255,.75);
+}
+
+#get-start .content .btn{
+    background-color: white;
+    font-size: 13.6px;
+    padding: 20px 36px;
+}
+
+#get-start .content h2::after{
+    content: "";
+    position: absolute;
+    border: 1px solid white;
+    width: 50px;
+    left: 47%;
+    bottom: -60%;
+}
+
+#your-servic{
+    padding:128px 0px;
+}
+
+#your-servic .icon a{
+    font-size: 60px;
+    color: #f4623a;
+}
+
+#your-servic .text h3{
+    font-size: 24px;
+}
+
+#your-servic .text p{
+    font-size: 16px;
+    color: #6c757d
+}
+
+#your-servic .servic h2{
+    position: relative;
+}
+#your-servic .servic h2::after{
+    content: '';
+    position: absolute;
+    border: 2px solid #f4623a;
+    width: 50px;
+    left: 48%;
+    bottom: -55%;
+}
+
+#photo .image img{
+    max-width: 100%;
+}
+
+#photo .image{
+    position: relative;
+    transition: all 0.5s;
+}
+
+#photo .image::after{
+    content: "" ;
+    position: absolute;
+    background-color: #f4623a;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#photo .image p{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    color: white;
+    font-size: 19.2px;
+    opacity: 0;
+}
+
+#photo .image p span{
+    font-size: 13.6px;
+    color: rgba(255,255,255,.5);
+}
+
+#photo .image:hover p{
+    opacity: 1;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+#photo .image:hover::after{
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+#download{
+    background-color: #343a40;
+}
+
+#download .content h2{
+    color: white;
+}
+
+#download .content .btn{
+    background-color: white;
+    font-size: 13.6px;
+    padding: 20px 36px;
+}
+
+#touch .container p{
+    color: #6c757d
+}
+
+#touch .container h2{
+    position: relative;
+}
+
+#touch .container h2::after{
+    content: '';
+    position: absolute;
+    border: 2px solid #f4623a;
+    width: 50px;
+    left: 45%;
+    bottom: -55%;
+}
+
+#touch .info .icon a{
+    color: #6c757d;
+    font-size: 48px;
+}
+
+#touch .info .text p{
+    color: black;
+}
+
+#touch .info .text a{
+    color: #f24516;
+}
+
+.footer{
+    color: #6c757d;
+}

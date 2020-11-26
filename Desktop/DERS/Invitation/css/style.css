@@ -1,0 +1,26 @@
+body{
+    max-width: 300px;
+    text-align: center;
+    background-image: url(../img/My_Invitation.jpeg);
+    background-size: 600px 600px ;
+    background-repeat: no-repeat;
+    margin: 180px 160px;
+}
+
+h1{
+    font-family: "GreatVibes";
+    line-height: 30px;
+}
+
+span{
+    font-size: 18px;
+    font-family: "Aldo";
+}
+
+p{
+    font-size: 18px;
+    font-family: "Aldo";
+    text-transform: uppercase;
+    line-height: 25px;
+}
+

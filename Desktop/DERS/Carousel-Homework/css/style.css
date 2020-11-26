@@ -1,0 +1,26 @@
+.item {
+    padding: .2rem;
+    
+}
+ 
+.item img{
+    width: 350px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.video::before {
+    content: "";
+    position: absolute;
+    font-family: "Font Awesome 5 Brands";
+    content: "\f167";
+    z-index: 1;
+    font-size: 4em;
+    cursor: pointer;
+    left: 9rem;
+    top: 4rem;
+}
+
+.video:hover::before{
+    color: red;
+}

@@ -1,0 +1,26 @@
+C:\Users\Yolchu Nasib\source\repos\220620\220620\bin\Debug\netcoreapp3.1\220620.exe
+C:\Users\Yolchu Nasib\source\repos\220620\220620\bin\Debug\netcoreapp3.1\220620.deps.json
+C:\Users\Yolchu Nasib\source\repos\220620\220620\bin\Debug\netcoreapp3.1\220620.runtimeconfig.json
+C:\Users\Yolchu Nasib\source\repos\220620\220620\bin\Debug\netcoreapp3.1\220620.runtimeconfig.dev.json
+C:\Users\Yolchu Nasib\source\repos\220620\220620\bin\Debug\netcoreapp3.1\220620.dll
+C:\Users\Yolchu Nasib\source\repos\220620\220620\bin\Debug\netcoreapp3.1\220620.pdb
+C:\Users\Yolchu Nasib\source\repos\220620\220620\obj\Debug\netcoreapp3.1\220620.csprojAssemblyReference.cache
+C:\Users\Yolchu Nasib\source\repos\220620\220620\obj\Debug\netcoreapp3.1\220620.csproj.CoreCompileInputs.cache
+C:\Users\Yolchu Nasib\source\repos\220620\220620\obj\Debug\netcoreapp3.1\220620.AssemblyInfoInputs.cache
+C:\Users\Yolchu Nasib\source\repos\220620\220620\obj\Debug\netcoreapp3.1\220620.AssemblyInfo.cs
+C:\Users\Yolchu Nasib\source\repos\220620\220620\obj\Debug\netcoreapp3.1\220620.dll
+C:\Users\Yolchu Nasib\source\repos\220620\220620\obj\Debug\netcoreapp3.1\220620.pdb
+C:\Users\Yolchu Nasib\source\repos\220620\220620\obj\Debug\netcoreapp3.1\220620.genruntimeconfig.cache
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\bin\Debug\netcoreapp3.1\220620.exe
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\bin\Debug\netcoreapp3.1\220620.deps.json
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\bin\Debug\netcoreapp3.1\220620.runtimeconfig.json
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\bin\Debug\netcoreapp3.1\220620.runtimeconfig.dev.json
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\bin\Debug\netcoreapp3.1\220620.dll
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\bin\Debug\netcoreapp3.1\220620.pdb
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\obj\Debug\netcoreapp3.1\220620.csprojAssemblyReference.cache
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\obj\Debug\netcoreapp3.1\220620.AssemblyInfoInputs.cache
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\obj\Debug\netcoreapp3.1\220620.AssemblyInfo.cs
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\obj\Debug\netcoreapp3.1\220620.csproj.CoreCompileInputs.cache
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\obj\Debug\netcoreapp3.1\220620.dll
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\obj\Debug\netcoreapp3.1\220620.pdb
+C:\Users\Ceyhun\Desktop\22-06-2020-jeyhunkhh-master\220620\obj\Debug\netcoreapp3.1\220620.genruntimeconfig.cache

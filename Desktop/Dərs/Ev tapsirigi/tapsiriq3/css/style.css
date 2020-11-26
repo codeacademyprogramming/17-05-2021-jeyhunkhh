@@ -1,0 +1,21 @@
+body{
+    width: 500px;
+    padding-left: 20px;
+}
+
+p{
+    color: slategray;
+}
+
+.check{
+    color: orangered;
+    margin-right: 6px;
+}
+
+.btn{
+    border-color: orangered;
+    background-color: white;
+    padding: 12px;
+    border-left-width: 12px;
+    
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/582d45796b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <section id=""></section>
+    </header>
+    <main>
+        <section id="credits" class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="credit-table">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="input-div">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="product-price">Məhsulun qiyməti (AZN)</label>
+                                                <input type="number" class="form-control" id="product-price">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="credit-month">Kredit müddəti (ay)</label>
+                                                <input type="number" class="form-control" id="credit-month">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="credit-percent">Aylıq kreditin faizi
+                                                </label>
+                                                <input type="number" class="form-control" id="credit-percent">
+                                            </div>
+                                        </form>
+                                        <button type="submit" class="btn btn-primary"
+                                            id="calculate-percent">Hesabla</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">Ay</th>
+                                                <th scope="col">Tarix</th>
+                                                <th scope="col">Ödəniş</th>
+                                                <th scope="col">Qalıq Borc</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="calculate-table">                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id=""></section>
+    </footer>
+
+    <script src="js/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/az.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

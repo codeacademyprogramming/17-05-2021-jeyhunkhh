@@ -1,0 +1,14 @@
+﻿<Window x:Class="_160720.Windows.DashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_160720.Windows"
+        mc:Ignorable="d"
+        Title="Panel" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        <Button x:Name="BtnGroupWindowOpen" Content="Qruplar" HorizontalAlignment="Left" Margin="26,31,0,0" VerticalAlignment="Top" Height="52" Width="93" Click="BtnGroupWindowOpen_Click"/>
+        <Button x:Name="BtnStudentWindowOpen" Content="Tələbələr" HorizontalAlignment="Left" Margin="141,31,0,0" VerticalAlignment="Top" Height="52" Width="93" Click="BtnStudentWindowOpen_Click"/>
+
+    </Grid>
+</Window>

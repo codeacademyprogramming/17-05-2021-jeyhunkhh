@@ -1,0 +1,19 @@
+C:\Users\Yolchu Nasib\source\repos\170920\170920\bin\Debug\netcoreapp3.1\170920.exe
+C:\Users\Yolchu Nasib\source\repos\170920\170920\bin\Debug\netcoreapp3.1\170920.deps.json
+C:\Users\Yolchu Nasib\source\repos\170920\170920\bin\Debug\netcoreapp3.1\170920.runtimeconfig.json
+C:\Users\Yolchu Nasib\source\repos\170920\170920\bin\Debug\netcoreapp3.1\170920.runtimeconfig.dev.json
+C:\Users\Yolchu Nasib\source\repos\170920\170920\bin\Debug\netcoreapp3.1\170920.dll
+C:\Users\Yolchu Nasib\source\repos\170920\170920\bin\Debug\netcoreapp3.1\170920.pdb
+C:\Users\Yolchu Nasib\source\repos\170920\170920\obj\Debug\netcoreapp3.1\170920.csprojAssemblyReference.cache
+C:\Users\Yolchu Nasib\source\repos\170920\170920\obj\Debug\netcoreapp3.1\170920.csproj.CoreCompileInputs.cache
+C:\Users\Yolchu Nasib\source\repos\170920\170920\obj\Debug\netcoreapp3.1\170920.AssemblyInfoInputs.cache
+C:\Users\Yolchu Nasib\source\repos\170920\170920\obj\Debug\netcoreapp3.1\170920.AssemblyInfo.cs
+C:\Users\Yolchu Nasib\source\repos\170920\170920\obj\Debug\netcoreapp3.1\170920.dll
+C:\Users\Yolchu Nasib\source\repos\170920\170920\obj\Debug\netcoreapp3.1\170920.pdb
+C:\Users\Yolchu Nasib\source\repos\170920\170920\obj\Debug\netcoreapp3.1\170920.genruntimeconfig.cache
+C:\Users\Ceyhun\Desktop\17-06-2020-jeyhunkhh-master\170920\obj\Debug\netcoreapp3.1\170920.csprojAssemblyReference.cache
+C:\Users\Ceyhun\Desktop\17-06-2020-jeyhunkhh-master\170920\obj\Debug\netcoreapp3.1\170920.AssemblyInfoInputs.cache
+C:\Users\Ceyhun\Desktop\17-06-2020-jeyhunkhh-master\170920\obj\Debug\netcoreapp3.1\170920.AssemblyInfo.cs
+C:\Users\Ceyhun\Desktop\17-06-2020-jeyhunkhh-master\170920\obj\Debug\netcoreapp3.1\170920.csproj.CoreCompileInputs.cache
+C:\Users\Ceyhun\Desktop\17-06-2020-jeyhunkhh-master\170920\obj\Debug\netcoreapp3.1\170920.dll
+C:\Users\Ceyhun\Desktop\17-06-2020-jeyhunkhh-master\170920\obj\Debug\netcoreapp3.1\170920.pdb

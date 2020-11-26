@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ceyhun"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-28 06:27:48 &#214;S"/>
+        <attribute name="created" value="Q2V5aHVuO0RFU0tUT1AtQ0ZJT1A4QzsyMDIwLTAxLTI4OzA1OjU5OjQzIMOWUzszMTIw"/>
+        <attribute name="edited" value="Q2V5aHVuO0RFU0tUT1AtQ0ZJT1A4QzsyMDIwLTAxLTI4OzA2OjI3OjQ4IMOWUzsxOzMyMjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eded, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Eded daxil edin&quot;" newline="True"/>
+            <assign variable="i" expression="0"/>
+            <input variable="eded"/>
+            <while expression="i&lt;eded">
+                <assign variable="i" expression="i+1"/>
+                <output expression="i" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

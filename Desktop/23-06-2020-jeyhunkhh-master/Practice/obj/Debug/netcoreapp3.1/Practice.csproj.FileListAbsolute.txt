@@ -1,0 +1,26 @@
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\bin\Debug\netcoreapp3.1\Practice.exe
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\bin\Debug\netcoreapp3.1\Practice.deps.json
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.json
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.dev.json
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\bin\Debug\netcoreapp3.1\Practice.dll
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\bin\Debug\netcoreapp3.1\Practice.pdb
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Practice.csprojAssemblyReference.cache
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfoInputs.cache
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfo.cs
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Practice.dll
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Practice.pdb
+C:\Users\Yolchu Nasib\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Practice.genruntimeconfig.cache
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\bin\Debug\netcoreapp3.1\Practice.exe
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\bin\Debug\netcoreapp3.1\Practice.deps.json
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.json
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.dev.json
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\bin\Debug\netcoreapp3.1\Practice.dll
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\bin\Debug\netcoreapp3.1\Practice.pdb
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\obj\Debug\netcoreapp3.1\Practice.csprojAssemblyReference.cache
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfoInputs.cache
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfo.cs
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\obj\Debug\netcoreapp3.1\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\obj\Debug\netcoreapp3.1\Practice.dll
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\obj\Debug\netcoreapp3.1\Practice.pdb
+C:\Users\Ceyhun\Desktop\23-06-2020-jeyhunkhh-master\Practice\obj\Debug\netcoreapp3.1\Practice.genruntimeconfig.cache

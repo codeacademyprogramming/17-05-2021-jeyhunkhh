@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mt-5 work-experience">
+                <form class="d-none" id="form">
+                    <div class="form-group d-flex">
+                        <div class="col-lg-6">
+                            <p class="input">
+                                <label for="Job title">Job title</label><br>
+                                <input type="text" name="Job title" id="Job title">
+                            </p> 
+                            <p class="input">
+                                <label for="Start date">Start date</label><br>
+                                <input type="text" name="Start date" id="Start date">
+                            </p> 
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="input"> 
+                                <label for="Company name">Company name</label><br>
+                                <input type="text" name="Company name" id="Company name">
+                            </p>
+                            <p class="input">
+                                <label for="End date">End date</label><br>
+                                <input type="text" name="End date" id="End date">
+                            </p>  
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-12">
+                            <label for="information">Other information</label><br>
+                            <textarea rows="4" cols="87" name="information" id="information"></textarea><br>
+                            <button class="btn btn-dark mt-3 delete-button">Delete</button>
+                        </div>
+                    </div>
+                </form>
+                <button class="btn btn-primary add-entry">Add entry</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

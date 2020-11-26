@@ -1,0 +1,60 @@
+body {
+  font-family: $secondary_font_family;
+  font-weight: 500;
+  font-size: 14px;
+  color: $body-color;
+  font-style: normal;
+}
+.img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.btn:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+a:hover,
+.btn:hover,
+.button:hover {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $primary_font_family;
+  color: $title-color;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+@each $tag, $size in $title-sizes {
+  #{$tag} {
+    font-size: #{$size}px;
+  }
+}

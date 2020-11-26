@@ -1,0 +1,26 @@
+#dropdown .my-dropdown{
+    display: inline-block;
+}
+
+#dropdown .my-dropdown .my-dropdown-menu{
+    width: 160px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#dropdown .my-dropdown .my-dropdown-menu.hover{
+    display: block;
+}
+
+#dropdown .my-dropdown .my-dropdown-menu a{
+    display: block;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px 20px;
+}
+
+#dropdown .my-dropdown .my-dropdown-menu a:hover{
+    text-decoration: none;
+    background-color: #ddd;
+}

@@ -1,0 +1,134 @@
+body{
+    font-family: "Nunito";
+    
+        
+      
+}
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#mountain{
+    height:100vh;
+    
+    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarSupportedContent{
+   
+}
+.collapse{
+    flex-grow: 0 !important;
+}
+.navbar{
+    
+    justify-content: space-between;
+background-color: transparent !important;
+z-index: 1;
+
+}
+.navbar a{
+font-size: 20px;
+
+
+color: rgb(250, 250, 250);
+}
+#navbarSupportedContent ul li a{
+color: rgba(255,255,255,.5);
+}
+
+h1{
+font-size: 100px;
+color: rgb(170, 168, 168);
+}
+
+.btn{
+    color: aliceblue;
+    background-color: #64a19d;
+    font-size: 20px;
+    padding:15px 40px 15px 40px;
+   margin-top: 35px;
+    
+}
+
+#ipad{
+    padding-top:150px;
+   background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+}
+
+#mountain-sh .container .imaa .image img{
+max-width: 100%;
+}
+#mountain-sh .container .imaa .image img{
+padding-top: 150px;
+
+}
+#mountain-sh .container .ipad-text{
+    padding-top: 250px;
+    padding-left: 30px;
+}
+#mountain-sh{
+    background-color: rgb(243, 241, 241)
+}
+#mountain-sh .container .ipad-text p{
+    color: rgb(75, 74, 74);
+}
+#ipad .image img{
+    max-width: 100%;
+}
+.imaa::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #64a19d;
+    height: 140px;
+    width: 9px;
+    top:47%;
+    left: 97.7%;
+}
+.imaa::after{
+    content: '';
+}
+
+/* #mountain-sh .ipad-text{
+    border-left: 5px solid #64a19d;
+} */
+
+
+#pic-text .container .image img{
+    max-width: 100%;
+}
+
+.col-6{
+    padding: 0 !important;
+    
+}
+#pic-text .container .text-bg {
+background-color: black;
+color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#pic-text .container .text-bg .text{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 60%;
+}
+#pic-text{
+    background-color: rgb(243, 241, 241)
+}

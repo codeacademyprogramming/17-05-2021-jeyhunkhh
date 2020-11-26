@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ceyhun"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-28 09:49:08 &#214;S"/>
+        <attribute name="created" value="Q2V5aHVuO0RFU0tUT1AtQ0ZJT1A4QzsyMDIwLTAxLTI4OzA4OjU5OjQ2IMOWUzszMTI2"/>
+        <attribute name="edited" value="Q2V5aHVuO0RFU0tUT1AtQ0ZJT1A4QzsyMDIwLTAxLTI4OzA5OjQ5OjA4IMOWUzsyOzMyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eded, X, count, ilkeded" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ededi daxil edin&quot;" newline="True"/>
+            <input variable="eded"/>
+            <assign variable="count" expression="0"/>
+            <assign variable="ilkeded" expression="eded"/>
+            <if expression="eded&gt;0 and eded&lt;=10^18">
+                <then>
+                    <while expression="eded&gt;0">
+                        <assign variable="X" expression="eded%10"/>
+                        <assign variable="eded" expression="(eded-X)/10"/>
+                        <assign variable="count" expression="(count+X)*10"/>
+                    </while>
+                    <assign variable="count" expression="count/10"/>
+                    <if expression="ilkeded==count">
+                        <then>
+                            <output expression="&quot;Yes&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;NO&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;daxil olunan eded yanlisdir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

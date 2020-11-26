@@ -1,0 +1,13 @@
+C:\Users\Yolchu Nasib\source\repos\070720\070720\bin\Debug\netcoreapp3.1\070720.exe
+C:\Users\Yolchu Nasib\source\repos\070720\070720\bin\Debug\netcoreapp3.1\070720.deps.json
+C:\Users\Yolchu Nasib\source\repos\070720\070720\bin\Debug\netcoreapp3.1\070720.runtimeconfig.json
+C:\Users\Yolchu Nasib\source\repos\070720\070720\bin\Debug\netcoreapp3.1\070720.runtimeconfig.dev.json
+C:\Users\Yolchu Nasib\source\repos\070720\070720\bin\Debug\netcoreapp3.1\070720.dll
+C:\Users\Yolchu Nasib\source\repos\070720\070720\bin\Debug\netcoreapp3.1\070720.pdb
+C:\Users\Yolchu Nasib\source\repos\070720\070720\obj\Debug\netcoreapp3.1\070720.csprojAssemblyReference.cache
+C:\Users\Yolchu Nasib\source\repos\070720\070720\obj\Debug\netcoreapp3.1\070720.AssemblyInfoInputs.cache
+C:\Users\Yolchu Nasib\source\repos\070720\070720\obj\Debug\netcoreapp3.1\070720.AssemblyInfo.cs
+C:\Users\Yolchu Nasib\source\repos\070720\070720\obj\Debug\netcoreapp3.1\070720.csproj.CoreCompileInputs.cache
+C:\Users\Yolchu Nasib\source\repos\070720\070720\obj\Debug\netcoreapp3.1\070720.dll
+C:\Users\Yolchu Nasib\source\repos\070720\070720\obj\Debug\netcoreapp3.1\070720.pdb
+C:\Users\Yolchu Nasib\source\repos\070720\070720\obj\Debug\netcoreapp3.1\070720.genruntimeconfig.cache

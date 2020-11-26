@@ -1,0 +1,29 @@
+.second{
+    position: relative;
+}
+
+.carousel-indicators{
+    position: absolute; 
+    margin: 15px;
+    justify-content: start;
+    left: 0px;
+    top: 25%;
+    display: block;
+    background: none;
+}
+
+.carousel-indicators li{
+    text-indent: 0%;
+    background: none;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 4px solid rgb(167, 160, 160);
+    color: rgb(31, 113, 124);
+    height: 30px;
+}
+
+.second .carousel-inner{
+    max-width: 540px;
+    max-height: 360px;
+    justify-content: center;
+}

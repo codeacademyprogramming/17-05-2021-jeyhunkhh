@@ -1,0 +1,6 @@
+@mixin card-border {
+    border: none;
+    box-shadow: $box-shadow;
+    border-radius: 8px;
+    overflow: hidden;
+}

@@ -1,0 +1,25 @@
+#image-cap{
+    margin-top: 50px;
+   
+}
+
+#image-cap .image img{
+    max-width: 100%;
+    border-top-left-radius: 2%;  
+    border-top-right-radius: 2%;
+    display: block;
+}
+
+#image-cap .content{
+   border-style: solid;
+   border-color: rgb(163, 156, 156);
+   border-width: 1px;
+   border-radius: 2%;  
+}
+
+#image-cap .text{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(73, 68, 68);
+}

@@ -1,0 +1,15 @@
+body{
+    width: 98%;
+    padding: 10px;
+}
+
+.head{
+    border-bottom-style: solid;
+    padding: 20px;
+    border-color: orangered;
+    color: darkblue;
+}
+
+.text{
+    color: darkcyan;
+}

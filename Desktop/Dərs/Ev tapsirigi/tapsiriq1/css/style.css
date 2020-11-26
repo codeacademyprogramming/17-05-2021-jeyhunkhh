@@ -1,0 +1,26 @@
+body{
+    width: 500px;
+    padding-left: 20px;
+}
+
+.head{
+    border-bottom-style: solid;
+    border-color:red;
+    padding-bottom: 25px;
+    color: rgb(82, 76, 76);
+    margin-bottom: 30px ;
+}
+
+.text{  
+    color: slategray;
+    margin-bottom: 25px;
+}
+
+.btn{
+    background-color: rgb(75, 224, 155);
+    padding: 20px 30px 20px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+
+}

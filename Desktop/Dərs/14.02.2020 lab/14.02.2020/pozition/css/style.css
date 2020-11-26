@@ -1,0 +1,65 @@
+#submit{
+margin-top: 50px;   
+}
+
+#submit .job{
+    position: relative; 
+}
+#submit .job input{
+    padding: 10px;
+    padding-left: 40px;
+    width: 210px;
+    height: 40px;
+    /* border-radius: 5%; */
+}
+
+#submit .job i{
+    position: absolute;
+    left: 3%;
+    top: 28%;
+ 
+}
+
+#submit .search{
+    position: relative; 
+}
+#submit .search .select{
+    width: 210px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+#submit .search i{
+    position: absolute;
+    left: 3%;
+    top: 28%;
+}
+
+#submit .categories{
+    position: relative; 
+}
+#submit .categories .select{
+    width: 210px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+#submit .categories i{
+    position: absolute;
+    left: 3%;
+    top: 28%;
+}
+
+#submit .btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    width: 210px;
+    height: 40px;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 40px;
+}
