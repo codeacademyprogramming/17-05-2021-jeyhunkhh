@@ -271,11 +271,26 @@ const data = [
     name: "BƏƏ dirhəmi",
     value: "0.4629",
   },
+  {
+    code: "AZN",
+    nominal: "1",
+    name: "AZ manatı",
+    value: "1",
+  },
 ];
 
-
-
 export default function App() {
+    const selectInputRef = React.createRef()
+    const selectOutputRef = React.createRef()
+    const inputValueRef = React.createRef()
+    const outputValueRef = React.createRef() 
+
+
+    function clickHandler(e) {
+        let from = data.filter(i=>i.code == selectInputRef.current.value)
+        let to = data.filter(i=>i.code == selectOutputRef.current.value)
+        outputValueRef.current.value = ((from[0].value * inputValueRef.current.value)/to[0].value).toFixed(4);   
+    }
   return (
     <div className="container mt-5">
       <div className="row justify-content-center">
@@ -284,16 +299,15 @@ export default function App() {
             <form>
               <label className="d-block">From</label>
               <div className="d-flex align-items-center justify-content-between">
-                <input type="number" defaultValue="1" min="0" />
-                <select className="form-select">
+                <input ref={inputValueRef} type="number" defaultValue="1" min="0" />
+                <select ref={selectInputRef}  className="form-select">
                   {data.map((item, key) => {
                     return (
-                      <option key={key+1} value={key}>
+                      <option key={key+1}>
                         {item.code}
                       </option>
                     );
                   })}
-                   <option value="0">AZN</option>
                 </select>
               </div>
             </form>
@@ -303,21 +317,20 @@ export default function App() {
             <form>
               <label className="d-block">To</label>
               <div className="d-flex align-items-center justify-content-between">
-                <input type="number" defaultValue="1.7" disabled className="output" min="0" />
-                <select className="form-select">
+                <input type="number" ref={outputValueRef} defaultValue="1.7002" disabled className="output" min="0" />
+                <select ref={selectOutputRef} defaultValue="AZN" className="form-select">
                   {data.map((item, key) => {
                     return (
-                      <option key={key+1} value={key}>
+                      <option key={key+1}>
                         {item.code}
                       </option>
                     );
                   })}
-                  <option selected value="0">AZN</option>
                 </select>
               </div>
             </form>
           </div>
-          <button type="button" className="btn btn-primary mt-3 w-100">
+          <button type="button" onClick={clickHandler} className="btn btn-primary mt-3 w-100">
              Exchange
           </button>
         </div>
